@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 1.5rem;
+}
+
+.header,
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20vh;
+}
+
+.input,
+.btn {
+  background: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.btn {
+  color: #fda085;
+  background: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.btn:hover {
+  background: #fda085;
+  color: white;
+}
+
+.todo-ul {
+  max-width: 640px;
+  margin: 0 auto;
+  color: black;
+}
+
+.todo-li {
+  background: white;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+
+.marks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fda085;
+  cursor: pointer;
+}
+
+.li-check,
+.li-text,
+.li-delete {
+  padding: 0.5rem;
+}
+
+.li-check {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */

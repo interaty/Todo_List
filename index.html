@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0a0afb0b30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Lukyho Todo List</h1>
+      </div>
+      <form>
+        <input type="text" class="input" />
+        <button class="btn"><i class="fas fa-plus-square"></i></button>
+      </form>
+    </div>
+    <div class="container">
+      <div class="todo-div">
+        <ul class="todo-ul">
+          <li class="todo-li">
+            <div class="li-text">Udělat kávu</div>
+            <div class="marks">
+              <div class="li-check"><i class="fas fa-check-square"></i></div>
+              <div class="li-delete"><i class="fas fa-trash-alt"></i></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
